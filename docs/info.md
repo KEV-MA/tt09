@@ -14,20 +14,20 @@ Standard input pins are used to input a 2-bit 2x2 matrix A as 8-bit 1x8 matrix. 
 
 Here is the matrix position mapping to input pins. Note each value is 2-bits.
 
-"A" top left:    (0,0)   -> IN7|IN6\
-"A" top right:   (0,1)   -> IN5|IN4\
-"A" bot left:    (1,0)   -> IN3|IN2\
-"A" bot right:   (1,1)   -> IN1|IN0
+"A" top left:    (0,0)   -> IN7 | IN6\
+"A" top right:   (0,1)   -> IN5 | IN4\
+"A" bot left:    (1,0)   -> IN3 | IN2\
+"A" bot right:   (1,1)   -> IN1 | IN0
 
-"B" top left:    (0,0)   -> IO7|IO6\
-"B" top right:   (0,1)   -> IO5|IO4\
-"B" bot left:    (1,0)   -> IO3|IO2\
-"B" bot right:   (1,1)   -> IO1|IO0
+"B" top left:    (0,0)   -> IO7 | IO6\
+"B" top right:   (0,1)   -> IO5 | IO4\
+"B" bot left:    (1,0)   -> IO3 | IO2\
+"B" bot right:   (1,1)   -> IO1 | IO0
 
-"C" top left:    (0,0)   -> OUT7|OUT6\
-"C" top right:   (0,1)   -> OUT5|OUT4\
-"C" bot left:    (1,0)   -> OUT3|OUT2\
-"C" bot right:   (1,1)   -> OUT1|OUT0
+"C" top left:    (0,0)   -> OUT7 | OUT6\
+"C" top right:   (0,1)   -> OUT5 | OUT4\
+"C" bot left:    (1,0)   -> OUT3 | OUT2\
+"C" bot right:   (1,1)   -> OUT1 | OUT0
 
 The logic will compute the matrix multiplication of AB, and output the result in the 8 output pins (8 bits).
 
