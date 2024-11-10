@@ -8,7 +8,7 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-Computes AB = C.
+Computes matrix multiplication AB = C.
 
 Standard input pins are used to input a 2-bit 2x2 matrix A as 8-bit 1x8 matrix. Bidirection IOs, initialized as inputs, are used to input a 2-bit 2x2 matrix B as 8 bit 1x8 matrix. Standard output pins will show the result of the computation in as a 2-bit 2x2 matrix as 8-bit 1x8 matrix.
 
